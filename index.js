@@ -10,4 +10,11 @@ class Driver {
       }.bind(this)
     )
   }
+  passengers() {
+    return trips.passengers.filter(
+      function(passenger) {
+        return
+      }
+    )
+  }
 }
